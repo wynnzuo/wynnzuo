@@ -1,0 +1,35 @@
+name: 生成贡献蛇形图
+
+on:
+  schedule:
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 生成 SVG
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg?color_snake=16776F&color_dots=E8F3F0,BFE0D8,6BA59A,16776F
+            dist/github-contribution-grid-snake-dark.svg?color_snake=4DD0B5&palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 推送 output 分支
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "chore: 更新贡献蛇形图"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
