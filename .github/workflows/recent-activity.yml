@@ -15,10 +15,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: 更新 README 最近动态
-        uses: jamesgeorge007/github-activity-readme@master
+      - name: 获取最近动态并写入 README
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 .github/update_activity.py
+
+      - name: 提交变更
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          COMMIT_MSG: "chore: 更新最近动态"
-          MAX_LINES: 8
+          commit_message: "chore: 更新最近动态"
+          commit_author_name: "github-actions[bot]"
+          commit_author_email: "41898282+github-actions[bot]@users.noreply.github.com"
