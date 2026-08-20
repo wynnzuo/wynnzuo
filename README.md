@@ -32,20 +32,6 @@
 - 2026-07-28 提交到 [wynnzuo/expense-tracker](https://github.com/wynnzuo/expense-tracker)
 <!--END_SECTION:activity-->
 
-## 统计
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=wynnzuo&show_icons=true&hide=issues&count_private=true&hide_border=true&bg_color=0d1117&title_color=4DD0B5&text_color=C9D1D9&icon_color=4DD0B5">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=wynnzuo&show_icons=true&hide=issues&count_private=true&hide_border=true&bg_color=ffffff&title_color=16776F&text_color=3D3D3D&icon_color=16776F">
-  <img alt="Wynn Zuo 的 GitHub 统计" src="https://github-readme-stats.vercel.app/api?username=wynnzuo&show_icons=true&hide=issues&count_private=true&hide_border=true&bg_color=ffffff&title_color=16776F&text_color=3D3D3D&icon_color=16776F">
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=wynnzuo&layout=compact&hide_border=true&bg_color=0d1117&title_color=4DD0B5&text_color=C9D1D9">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=wynnzuo&layout=compact&hide_border=true&bg_color=ffffff&title_color=16776F&text_color=3D3D3D">
-  <img alt="Wynn Zuo 常用的编程语言" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wynnzuo&layout=compact&hide_border=true&bg_color=ffffff&title_color=16776F&text_color=3D3D3D">
-</picture>
-
 ## 贡献
 
 <picture>
