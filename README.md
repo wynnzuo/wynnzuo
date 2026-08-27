@@ -29,7 +29,6 @@
 - 2026-08-20 提交到 [wynnzuo/langchain-playground](https://github.com/wynnzuo/langchain-playground)
 - 2026-08-06 提交到 [wynnzuo/quant-research](https://github.com/wynnzuo/quant-research)
 - 2026-08-06 在 [wynnzuo/quant-research](https://github.com/wynnzuo/quant-research) 创建了分支 `main`
-- 2026-07-28 提交到 [wynnzuo/expense-tracker](https://github.com/wynnzuo/expense-tracker)
 <!--END_SECTION:activity-->
 
 ## 贡献
