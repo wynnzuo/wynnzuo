@@ -26,7 +26,6 @@
 ## 最近在做
 
 <!--START_SECTION:activity-->
-- 2026-08-20 提交到 [wynnzuo/langchain-playground](https://github.com/wynnzuo/langchain-playground)
 <!--END_SECTION:activity-->
 
 ## 贡献
